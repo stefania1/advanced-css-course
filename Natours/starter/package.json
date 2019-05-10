@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefania1/advanced-css-course.git"
+  },
+  "author": "Stefanija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefania1/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/stefania1/advanced-css-course#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0"
+  }
+}

@@ -176,6 +176,7 @@ body {
     left: 0;
     z-index: -1;
     transform: all .4s;
+    opacity: 1;
 }
 
 .btn--white::after {
@@ -184,6 +185,7 @@ body {
 
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
+    transition: all .3s;
     opacity: 0;
 }
 .btn--animated {
