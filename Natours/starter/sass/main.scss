@@ -8,7 +8,9 @@
 @import "base/utilities";
 
 @import "components/button";
+@import "components/composition";
 
-@import "layout/header";
+@import "layouts/header";
+@import "layouts/grid";
 
 @import "pages/home";
