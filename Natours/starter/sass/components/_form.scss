@@ -37,6 +37,7 @@
         margin-top: .7rem;
         display: block;
         opacity: 0;
+        transition: all .3s;
     }
 
     &__input::-webkit-input-placeholder {
