@@ -34,18 +34,18 @@ ORDER: Base + typography > general grid + grid > page layout > components
 
 @mixin respond($breakpoin) {
     @if $breakpoin == phone {
-        @media (max-width: 37.5em) { @content };   //600px
+        @media only screen and (max-width: 37.5em) { @content };   //600px
     }
 
     @if $breakpoin == tab-port {
-        @media (max-width: 56.25em) { @content };  //900px
+        @media only screen and (max-width: 56.25em) { @content };  //900px
     }
 
     @if $breakpoin == tab-land {
-        @media (max-width: 75em) { @content };    //1200px
+        @media only screen and (max-width: 75em) { @content };    //1200px
     }
 
 @if $breakpoin == big-desktop {
-        @media (max-width: 112.5em) { @content };   //1800px
+        @media only screen and (max-width: 112.5em) { @content };   //1800px
     }
 }
