@@ -12,8 +12,16 @@
         <title>nexter &mdash; your home, your freedom</title>
     </head>
     <body class="container">
-        <div class="sidebar">
-            <button class="nav-btn"></button>
+        <div id="mySidemenu" class="sidemenu">
+            <a href="javascript:void(0)" class="sidemenu__closebtn" onclick="closeNav()">×</a>
+            <a class="sidemenu__link" href="#">About</a>
+            <a class="sidemenu__link"href="#">Services</a>
+            <a class="sidemenu__link"href="#">Clients</a>
+            <a class="sidemenu__link"href="#">Contact</a>
+        </div>
+
+        <div class="sidebar" id="menu-btn">
+            <div onclick="openNav()"><button class="nav-btn"></button></div>
         </div>
 
         <header class="header">
@@ -393,7 +401,7 @@
                 <li class="nav__item"><a href="#" class="nav__link">Download home planner</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Submit your property</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Come work wit us!</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Come work with us!</a></li>
             </ul>
 
             <p class="copyright">
@@ -401,6 +409,7 @@
             </p>
         </footer>
 
-
+        <script src="js/script.js"></script>
     </body>
+
 </html>
